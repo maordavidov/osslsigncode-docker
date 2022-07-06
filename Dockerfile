@@ -8,4 +8,3 @@ RUN apt-get update \
 
 WORKDIR /work
 USER nobody
-ENTRYPOINT ["osslsigncode"]
